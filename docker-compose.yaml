@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  cron:
+    build: .
+    restart: always
+    privileged: true
+    volumes:
+      - ./config.json:/opt/crontab/config.json
