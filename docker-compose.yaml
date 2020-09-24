@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   cron:
-    build: .
+    image: 192.168.1.202/base-repos/cron-helper:v2
     restart: always
     privileged: true
     volumes:
