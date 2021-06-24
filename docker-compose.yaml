@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   cron:
-    image: 192.168.1.202/base-repos/cron-helper:v2
+    image: registry.nekoimi.com/base-repos/cron-helper:v1
     restart: always
     privileged: true
     volumes:

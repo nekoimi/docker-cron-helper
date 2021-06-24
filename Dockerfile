@@ -1,6 +1,6 @@
 FROM willfarrell/crontab
 
-LABEL maintainer="yangjinbo <yangjinbo@yoyohr.com>"
+LABEL maintainer="nekoimi <nekoimime@gmail.com>"
 
 COPY docker-entrypoint /
 
